@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='py_mail',
+    name='abork_mail',
     version='1.0.0', 
     packages=['py_mail'], 
     author='Alex Bork',
