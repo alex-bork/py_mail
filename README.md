@@ -10,7 +10,7 @@ pip intall abork_mail
 ## **2. Usage**
 
 ```
-from abork_mail.mail import SmtpMail
+from py_mail.mail import SmtpMail
 ```
 
 ```
