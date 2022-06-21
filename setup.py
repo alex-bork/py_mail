@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='abork_mail',
-    version='1.0.2', 
+    version='1.0.3', 
     packages=['py_mail'], 
     author='Alex Bork',
     license=open('LICENSE', 'r').read(),
-    long_description=open('README.md', 'r').read(),
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
+    long_description=open('README.md', 'r', encoding="utf-8").read(),
 )
