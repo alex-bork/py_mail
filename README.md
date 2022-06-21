@@ -3,7 +3,7 @@ abork_mail is a module for sending emails easily.
 
 ## **1. Installation**
 
-```cmd
+```command
 pip intall abork_mail
 ```
 
@@ -11,14 +11,11 @@ pip intall abork_mail
 
 ```python
 from abork_mail.mail import SmtpMail
-
-SmtpMail(smtp_host="<smtp_host_address>",
-                smtp_port=<smtp_port_number>,
-                smtp_user="<sender_email>",
-                smtp_password="<sender_password>",
-                mail_recipients=["<recipient_email_address>"],
-                mail_subject="<email_subject>",
-                mail_text="<email_text>").send()
 ```
 
-Use the "mail_text_html" instead of "mail_text" if you want to send HTML-content.
+```python
+mail = SmtpMail(par1=val1, par2=val2, ...)
+mail.send()
+```
+
+Use the `mail_text_html` parameter instead of `mail_text` if you want to send HTML-content.

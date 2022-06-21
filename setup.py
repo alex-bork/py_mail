@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='abork_mail',
-    version='1.0.1', 
+    version='1.0.2', 
     packages=['py_mail'], 
     author='Alex Bork',
     license=open('LICENSE', 'r').read(),
