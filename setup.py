@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='abork_mail',
-    version='1.0.0', 
+    version='1.0.1', 
     packages=['py_mail'], 
     author='Alex Bork',
     license=open('LICENSE', 'r').read(),

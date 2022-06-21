@@ -1,16 +1,16 @@
-# **py_mail**
-py_mail is a module for sending emails easily.
+# **ABORK_MAIL**
+abork_mail is a module for sending emails easily.
 
 ## **1. Installation**
 
 ```cmd
-pip intall py_mail
+pip intall abork_mail
 ```
 
 ## **2. Usage**
 
 ```python
-from py_mail.mail import SmtpMail
+from abork_mail.mail import SmtpMail
 
 SmtpMail(smtp_host="<smtp_host_address>",
                 smtp_port=<smtp_port_number>,
